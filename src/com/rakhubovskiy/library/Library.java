@@ -2,9 +2,9 @@ package com.rakhubovskiy.library;
 
 public class Library {
 
-    String nameLibrary;
-    String address;
-    String department;
+    private String nameLibrary;
+    private String address;
+    private String department;
 
     public Library(String nameLibrary, String address, String department) {
         this.nameLibrary = nameLibrary;

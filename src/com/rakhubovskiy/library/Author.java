@@ -2,9 +2,9 @@ package com.rakhubovskiy.library;
 
 public class Author {
 
-    String firstName;
-    String secondName;
-    String surname;
+    private String firstName;
+    private String secondName;
+    private String surname;
 
     public Author(String firstName, String secondName, String surname) {
         this.firstName = firstName;

@@ -2,10 +2,10 @@ package com.rakhubovskiy.library;
 
 public class Book {
 
-    Integer id;
-    String name;
-    String author;
-    String genre;
+    private Integer id;
+    private String name;
+    private String author;
+    private String genre;
 
     public Book(String name, String author) {
         this.name = name;

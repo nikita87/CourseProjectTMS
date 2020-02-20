@@ -2,7 +2,7 @@ package com.rakhubovskiy.library;
 
 public class Genre {
 
-    String nameGenre;
+    private String nameGenre;
 
     public Genre(String nameGenre) {
         this.nameGenre = nameGenre;
