@@ -7,15 +7,18 @@ public class Book {
     private Author author;
     private Genre genre;
 
+    public Book() {
+        id = 0;
+        name = null;
+        author = null;
+        genre = null;
+    }
+
     public Book(Integer id, String name, Author author, Genre genre) {
         this.id = id;
         this.name = name;
         this.author = author;
         this.genre = genre;
-    }
-
-    public Book(Integer id) {
-        this.id = id;
     }
 
     public Integer getId() {

@@ -6,6 +6,12 @@ public class Author {
     private String secondName;
     private String surname;
 
+    public Author() {
+        firstName = null;
+        secondName = null;
+        surname = null;
+    }
+
     public Author(String firstName, String secondName, String surname) {
         this.firstName = firstName;
         this.secondName = secondName;
@@ -16,6 +22,8 @@ public class Author {
         this.firstName = firstName;
         this.surname = surname;
     }
+
+
 
     public String getFirstName() {
         return firstName;

@@ -4,6 +4,10 @@ public class Genre {
 
     private String nameGenre;
 
+    public Genre() {
+       nameGenre = null;
+    }
+
     public Genre(String nameGenre) {
         this.nameGenre = nameGenre;
     }

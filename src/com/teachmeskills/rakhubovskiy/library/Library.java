@@ -5,11 +5,20 @@ public class Library {
     private String nameLibrary;
     private String address;
     private String department;
+    private String[] books;
 
     public Library(String nameLibrary, String address, String department) {
         this.nameLibrary = nameLibrary;
         this.address = address;
         this.department = department;
+    }
+
+    public String[] getBooks() {
+        return books;
+    }
+
+    public void setBooks(String[] books) {
+        this.books = books;
     }
 
     public String getNameLibrary() {
