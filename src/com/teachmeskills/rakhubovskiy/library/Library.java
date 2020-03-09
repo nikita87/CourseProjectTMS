@@ -5,7 +5,7 @@ public class Library {
     private String nameLibrary;
     private String address;
     private String department;
-    private String[] books;
+    private Book[] books;
 
     public Library(String nameLibrary, String address, String department) {
         this.nameLibrary = nameLibrary;
@@ -13,11 +13,11 @@ public class Library {
         this.department = department;
     }
 
-    public String[] getBooks() {
+    public Book[] getBooks() {
         return books;
     }
 
-    public void setBooks(String[] books) {
+    public void setBooks(Book[] books) {
         this.books = books;
     }
 
